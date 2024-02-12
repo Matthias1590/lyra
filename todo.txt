@@ -1,0 +1,9 @@
+should do:
+- handle errors in bootloader code
+- clean up segment declarations
+- add tss segment
+- handle interrupts
+
+want to do:
+- io stuff (display, keyboard, timers, etc.)
+- clean up kernel code
