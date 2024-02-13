@@ -26,6 +26,9 @@ start:
     mov gs, ax
     mov ss, ax
 
+    ; set up stack
+    mov sp, 0x9000
+
     ; read kernel
     mov bx, 0x1000
     mov ah, 2
