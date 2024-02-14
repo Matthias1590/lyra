@@ -6,8 +6,3 @@ should do:
 - add tss segment
 - handle interrupts
 - enable a20 line (for more memory)
-
-want to do:
-- io stuff (display, keyboard, timers, etc.)
-- clean up kernel code
-- simple cli
